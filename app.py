@@ -2,6 +2,8 @@ from twitter import Twitter
 import time
 
 
+#bismilah bisa
+
 tw = Twitter()
 
 def start():
