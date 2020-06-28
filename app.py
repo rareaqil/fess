@@ -3,6 +3,7 @@ import time
 
 
 #bismilah bisa
+#test kedua
 
 tw = Twitter()
 
@@ -21,8 +22,8 @@ def start():
                     # prikitiw is the keyword
                     # if you want to turn off the case sensitive like: priktiw, Prikitiw, pRiKiTiw
                     # just use lower(message) and check it, but please remove the replace function line
-                    if "cuy" in message:
-                        message = message.replace("cuy", "")
+                    if "-cuy" in message:
+                        message = message.replace("", "")
                         if len(message) is not 0:
                             if dms[i]['media'] is None:
                                 print("DM will be posted")
